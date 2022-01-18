@@ -45,7 +45,7 @@ a {
 
 
 .woman-bottom {
-    z-index: 1!important;
+    z-index: 0!important;
     height: 100vh;
 }
 
@@ -60,3 +60,23 @@ a {
 .blueBg {
     background-color:#7db095;
 }
+
+.block {
+    background-color: white;
+}
+
+.toggle, .woman-bottom{
+    display:flex
+}
+
+.toggle{
+    margin-top: -10vh;
+    z-index: 1!important;
+    /* align-items: flex-end;
+    justify-content: flex-end; */
+    justify-items: flex-end;
+    /* justify-content: end;  */
+
+}
+
+
